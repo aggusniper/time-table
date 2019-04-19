@@ -1,0 +1,79 @@
+/*
+    id = main
+    id = header
+    id = section
+    id = footer
+    top: 50%;
+     bottom: 50%;
+     position: absolute;
+     transform: translate(-50% -50%);
+ */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ #main {
+     text-align: center;
+     font-family: pala, 'Helvetica', sans-serif;
+     font-size: 25px;
+     width: 100%;
+     background: darkslategray;
+ }
+
+ #header {
+     height: 70px;
+     background: rgb(123, 147, 150);
+     line-height: 230%;
+     font-size: 30px;
+     font-family: pala;
+     color: aliceblue;;
+ }
+
+ #section {
+
+ }
+    #section table {
+        border-collapse: collapse;
+        width: 30%;
+        height: 600px;
+        margin: 1% 35% 1% 35%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: cornsilk;
+    }
+
+ #footer {
+     height: 50px;
+     color: aliceblue;;
+     background: rgb(123, 147, 150);
+     line-height: 200%;
+ }
+
+ .table {
+     border-style: solid;
+     border-width: 2px;
+     border-color: rgb(123, 147, 150);
+     color: aliceblue;;
+
+ }
+
+ .header {
+     background: rgb(123, 147, 150);
+ }
+
+ .right {
+    color: aliceblue;
+ }
+
+ @font-face {
+     font-family: "Helvetica";
+     src: url('Helvetica') format('embedded-opentype'),
+     url('/font/Helvetica.ttf') format('opentype');
+
+ @font-face {
+     font-family: "pala";
+     src: url('pala') format('embedded-opentype'),
+     url('/font/pala.ttf') format('opentype');
+ }
